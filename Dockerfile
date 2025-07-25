@@ -1,11 +1,12 @@
 # Usa una imagen oficial de PHP con Apache
 FROM php:8.1-apache
 
-# Instala la extensión mysqli para MySQL
-RUN docker-php-ext-install mysqli
+# Instala las extensiones necesarias para PostgreSQL
+RUN apt-get update && apt-get install -y libpq-dev \
+  && docker-php-ext-install pgsql pdo_pgsql
 
-# Habilita el módulo rewrite (por si usas URLs amigables)
+# Habilita el módulo rewrite (opcional)
 RUN a2enmod rewrite
 
-# Copia todo tu proyecto a la carpeta de Apache
+# Copia tu proyecto al directorio público de Apache
 COPY . /var/www/html/
