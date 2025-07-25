@@ -1,8 +1,9 @@
 <?php
-$host = 'postgresql://postgres:[YOUR-PASSWORD]@db.qokxguweyxmgwylvtcgv.supabase.co:5432/postgres';
-$dbname = 'postgres'; // cuidado con el carácter especial (&)
-$usuario = 'postgres';
-$contrasena = 'tssped131328';
+$host = 'db.qokxguweyxmgwylvtcgv.supabase.co'; // Solo el host, sin "postgresql://"
+$port = '5432';
+$dbname = 'postgres'; // nombre de la base de datos
+$user = 'postgres';  // usuario correcto
+$password = 'tssped131328'; // tu contraseña
 
 try {
   $conexion = new PDO("pgsql:host=$host;port=$port;dbname=$dbname", $user, $password);
@@ -12,5 +13,6 @@ try {
   echo "Error de conexión: " . $e->getMessage();
 }
 ?>
+
 
 
