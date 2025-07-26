@@ -120,8 +120,7 @@
     <div class="regalo">
       <img src="multimedia/wishlist/5.jpg" alt="Licuadora">
       <h3>Cafetera</h3>
-    <a href="https://docs.google.com/forms/d/e/1FAIpQLSebMnUVtg6beGkNrygig353NguHOJXmfj8ooGDvK2H1jt2qrA/viewform?usp=header" target="_blank">
-   <button type="button">Apartar</button>
+   <button type="button">✔Apartado</button>
     </a>
     </div>
 
@@ -168,8 +167,7 @@
     <div class="regalo">
       <img src="multimedia/wishlist/11.jpg" alt="Licuadora">
       <h3>Vasos y Pichel</h3>
-    <a href="https://docs.google.com/forms/d/e/1FAIpQLSebMnUVtg6beGkNrygig353NguHOJXmfj8ooGDvK2H1jt2qrA/viewform?usp=header" target="_blank">
-   <button type="button">Apartar</button>
+   <button type="button">✔Apartado</button>
     </a>
     </div>
     
@@ -354,7 +352,13 @@
    <button type="button">Apartar</button>
     </a>
     </div>
-
+    <div class="regalo">
+      <img src="multimedia/wishlist/35.jpg" alt="Licuadora">
+      <h3>Trapeador Giratorio</h3>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSebMnUVtg6beGkNrygig353NguHOJXmfj8ooGDvK2H1jt2qrA/viewform?usp=header" target="_blank">
+   <button type="button">Apartar</button>
+    </a>
+    </div>
   </div>
 </main>
 </body>
