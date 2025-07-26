@@ -26,7 +26,7 @@
     }
 
     .img-contenedor img {
-      width: 80%;
+      width: 100%;
       height: auto;
       display: block;
     }
@@ -74,12 +74,14 @@
       flex-wrap: wrap;
     }
 
-    .contenedor-izquierda img {
-      max-width: 500px;
-      width: 100%;
-      height: auto;
-      border-radius: 12px;
-    }
+   .contenedor-izquierda img {
+  max-width: 500px;
+  width: 80%;
+  height: auto;
+  border-radius: 12px;
+  display: block;         /* Necesario para que funcione margin auto */
+  margin: 0 auto;         /* Centra horizontalmente */
+}
 
     .bloque-contador {
       display: flex;
