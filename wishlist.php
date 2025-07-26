@@ -1,17 +1,4 @@
- <?php include_once("header.php") ?>
-<?php
-include('conexion.php');
-
-// Apartar regalo si se hace clic en el botón
-if (isset($_POST['apartado_id'])) {
-    $id = intval($_POST['apartado_id']);
-    $conn->query("UPDATE regalos SET apartado = true WHERE id = $id");
-}
-
-// Obtener regalos
-$resultado = $conn->query("SELECT * FROM regalos");
-?>
-
+<?php include_once("header.php") ?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -23,16 +10,17 @@ $resultado = $conn->query("SELECT * FROM regalos");
       background-color: #4c1424;
       margin: 0;
       padding: 40px;
-      color: #fff8f2 ;
+      color: #fff8f2;
     }
 
     h1 {
       text-align: center;
       font-size: 2.5em;
-      color: #ffffffff;
+      color: #ffffff;
       margin-bottom: 40px;
     }
-        .elegante {
+
+    .elegante {
       font-family: 'Cormorant Garamond', cursive;
       font-size: 18px;
       color: #ffffff;
@@ -66,7 +54,7 @@ $resultado = $conn->query("SELECT * FROM regalos");
     .regalo h3 {
       font-size: 1.2em;
       margin-bottom: 10px;
-      color: #000000ff;
+      color: #000;
     }
 
     .regalo button {
@@ -91,32 +79,288 @@ $resultado = $conn->query("SELECT * FROM regalos");
   </style>
 </head>
 <body>
-    <main style="margin-top: 80px;">
-
+<main style="margin-top: 80px;">
   <h1>Si deseas bendecirnos 💖</h1>
   <p class="elegante"> Hemos preparado esta lista con algunos detalles que serían de gran ayuda y bendición en nuestra nueva vida juntos. Si en tu corazón deseas apoyarnos con uno de estos regalos, puedes marcarlo como apartado para que no se repita. Cada gesto es una semilla de amor que valoramos profundamente.</p>
 
   <div class="lista-regalos">
-  <?php while ($row = $resultado->fetch(PDO::FETCH_ASSOC)) { ?>
     <div class="regalo">
-      <img src="<?= htmlspecialchars($row['imagen_url']) ?>" alt="<?= htmlspecialchars($row['nombre']) ?>">
-      <h3><?= htmlspecialchars($row['nombre']) ?></h3>
-
-      <?php if ($row['apartado']): ?>
-        <div class="apartado">✅ Ya ha sido apartado</div>
-      <?php else: ?>
-        <form method="post">
-          <input type="hidden" name="apartado_id" value="<?= $row['id'] ?>">
-          <button type="submit">Apartar</button>
-        </form>
-      <?php endif; ?>
+      <img src="multimedia/wishlist/1.jpg" alt="Licuadora">
+      <h3>Freidora de Aire</h3>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSebMnUVtg6beGkNrygig353NguHOJXmfj8ooGDvK2H1jt2qrA/viewform?usp=header" target="_blank">
+   <button type="button">Apartar</button>
+    </a>
     </div>
-  <?php } ?>
-</div>
 
+      <div class="regalo">
+
+      <img src="multimedia/wishlist/2.jpg" alt="Licuadora">
+      <h3>Licuadora Ninja</h3>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSebMnUVtg6beGkNrygig353NguHOJXmfj8ooGDvK2H1jt2qrA/viewform?usp=header" target="_blank">
+   <button type="button">Apartar</button>
+    </a>
+      </div>
+
+    <div class="regalo">
+      <img src="multimedia/wishlist/3.jpg" alt="Licuadora">
+      <h3>Licuadora</h3>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSebMnUVtg6beGkNrygig353NguHOJXmfj8ooGDvK2H1jt2qrA/viewform?usp=header" target="_blank">
+   <button type="button">Apartar</button>
+    </a>
+    </div>
+
+    <div class="regalo">
+      <img src="multimedia/wishlist/4.jpg" alt="Licuadora">
+      <h3>Batidora</h3>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSebMnUVtg6beGkNrygig353NguHOJXmfj8ooGDvK2H1jt2qrA/viewform?usp=header" target="_blank">
+   <button type="button">Apartar</button>
+    </a>
+    </div>
+
+    <div class="regalo">
+      <img src="multimedia/wishlist/5.jpg" alt="Licuadora">
+      <h3>Cafetera</h3>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSebMnUVtg6beGkNrygig353NguHOJXmfj8ooGDvK2H1jt2qrA/viewform?usp=header" target="_blank">
+   <button type="button">Apartar</button>
+    </a>
+    </div>
+
+    <div class="regalo">
+      <img src="multimedia/wishlist/6.jpg" alt="Licuadora">
+      <h3>Wafflera</h3>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSebMnUVtg6beGkNrygig353NguHOJXmfj8ooGDvK2H1jt2qrA/viewform?usp=header" target="_blank">
+   <button type="button">Apartar</button>
+    </a>
+    </div>
+
+    <div class="regalo">
+      <img src="multimedia/wishlist/7.jpg" alt="Licuadora">
+      <h3>Olla de Cocimiento Lento</h3>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSebMnUVtg6beGkNrygig353NguHOJXmfj8ooGDvK2H1jt2qrA/viewform?usp=header" target="_blank">
+   <button type="button">Apartar</button>
+    </a>
+    </div>
+
+    <div class="regalo">
+      <img src="multimedia/wishlist/8.jpg" alt="Licuadora">
+      <h3>Báscula de Cocina</h3>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSebMnUVtg6beGkNrygig353NguHOJXmfj8ooGDvK2H1jt2qrA/viewform?usp=header" target="_blank">
+   <button type="button">Apartar</button>
+    </a>
+    </div>
+
+    <div class="regalo">
+      <img src="multimedia/wishlist/9.jpg" alt="Licuadora">
+      <h3>Juego de Plato</h3>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSebMnUVtg6beGkNrygig353NguHOJXmfj8ooGDvK2H1jt2qrA/viewform?usp=header" target="_blank">
+   <button type="button">Apartar</button>
+    </a>
+    </div>
+
+    <div class="regalo">
+      <img src="multimedia/wishlist/10.jpg" alt="Licuadora">
+      <h3>Trastera</h3>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSebMnUVtg6beGkNrygig353NguHOJXmfj8ooGDvK2H1jt2qrA/viewform?usp=header" target="_blank">
+   <button type="button">Apartar</button>
+    </a>
+    </div>
+
+    <div class="regalo">
+      <img src="multimedia/wishlist/11.jpg" alt="Licuadora">
+      <h3>Vasos y Pichel</h3>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSebMnUVtg6beGkNrygig353NguHOJXmfj8ooGDvK2H1jt2qrA/viewform?usp=header" target="_blank">
+   <button type="button">Apartar</button>
+    </a>
+    </div>
+    
+    <div class="regalo">
+      <img src="multimedia/wishlist/12.jpg" alt="Licuadora">
+      <h3>Arrocera</h3>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSebMnUVtg6beGkNrygig353NguHOJXmfj8ooGDvK2H1jt2qrA/viewform?usp=header" target="_blank">
+   <button type="button">Apartar</button>
+    </a>
+    </div>
+
+    <div class="regalo">
+      <img src="multimedia/wishlist/13.jpg" alt="Licuadora">
+      <h3>Procesador</h3>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSebMnUVtg6beGkNrygig353NguHOJXmfj8ooGDvK2H1jt2qrA/viewform?usp=header" target="_blank">
+   <button type="button">Apartar</button>
+    </a>
+    </div>
+
+    <div class="regalo">
+      <img src="multimedia/wishlist/14.jpg" alt="Licuadora">
+      <h3>Sánwichera</h3>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSebMnUVtg6beGkNrygig353NguHOJXmfj8ooGDvK2H1jt2qrA/viewform?usp=header" target="_blank">
+   <button type="button">Apartar</button>
+    </a>
+    </div>
+
+    <div class="regalo">
+      <img src="multimedia/wishlist/15.jpg" alt="Licuadora">
+      <h3>Tostadora</h3>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSebMnUVtg6beGkNrygig353NguHOJXmfj8ooGDvK2H1jt2qrA/viewform?usp=header" target="_blank">
+   <button type="button">Apartar</button>
+    </a>
+    </div>
+
+    <div class="regalo">
+      <img src="multimedia/wishlist/16.jpg" alt="Licuadora">
+      <h3>Olla de Presión</h3>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSebMnUVtg6beGkNrygig353NguHOJXmfj8ooGDvK2H1jt2qrA/viewform?usp=header" target="_blank">
+   <button type="button">Apartar</button>
+    </a>
+    </div>
+
+    <div class="regalo">
+      <img src="multimedia/wishlist/17.jpg" alt="Licuadora">
+      <h3>Microondas</h3>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSebMnUVtg6beGkNrygig353NguHOJXmfj8ooGDvK2H1jt2qrA/viewform?usp=header" target="_blank">
+   <button type="button">Apartar</button>
+    </a>
+    </div>
+
+        <div class="regalo">
+      <img src="multimedia/wishlist/18.jpg" alt="Licuadora">
+      <h3>Florero</h3>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSebMnUVtg6beGkNrygig353NguHOJXmfj8ooGDvK2H1jt2qrA/viewform?usp=header" target="_blank">
+   <button type="button">Apartar</button>
+    </a>
+     </div>
+
+    <div class="regalo">
+      <img src="multimedia/wishlist/19.jpg" alt="Licuadora">
+      <h3>Reloj de Pared</h3>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSebMnUVtg6beGkNrygig353NguHOJXmfj8ooGDvK2H1jt2qrA/viewform?usp=header" target="_blank">
+   <button type="button">Apartar</button>
+    </a>
+    </div>
+
+    <div class="regalo">
+      <img src="multimedia/wishlist/20.jpg" alt="Licuadora">
+      <h3>Almohadas</h3>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSebMnUVtg6beGkNrygig353NguHOJXmfj8ooGDvK2H1jt2qrA/viewform?usp=header" target="_blank">
+   <button type="button">Apartar</button>
+    </a>
+    </div>
+
+    <div class="regalo">
+      <img src="multimedia/wishlist/21.jpg" alt="Licuadora">
+      <h3>Alfombra o Tapete</h3>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSebMnUVtg6beGkNrygig353NguHOJXmfj8ooGDvK2H1jt2qrA/viewform?usp=header" target="_blank">
+   <button type="button">Apartar</button>
+    </a>
+    </div>
+    <div class="regalo">
+      <img src="multimedia/wishlist/22.jpg" alt="Licuadora">
+      <h3>Lámpara de Noche</h3>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSebMnUVtg6beGkNrygig353NguHOJXmfj8ooGDvK2H1jt2qrA/viewform?usp=header" target="_blank">
+   <button type="button">Apartar</button>
+    </a>
+    </div>
+
+    <div class="regalo">
+      <img src="multimedia/wishlist/23.jpg" alt="Licuadora">
+      <h3>Mesita de Noche</h3>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSebMnUVtg6beGkNrygig353NguHOJXmfj8ooGDvK2H1jt2qrA/viewform?usp=header" target="_blank">
+   <button type="button">Apartar</button>
+    </a>
+    </div>
+
+    <div class="regalo">
+      <img src="multimedia/wishlist/24.jpg" alt="Licuadora">
+      <h3>Espejo de Pared</h3>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSebMnUVtg6beGkNrygig353NguHOJXmfj8ooGDvK2H1jt2qrA/viewform?usp=header" target="_blank">
+   <button type="button">Apartar</button>
+    </a>
+    </div>
+
+    <div class="regalo">
+      <img src="multimedia/wishlist/25.jpg" alt="Licuadora">
+      <h3>Juego de Sábanas</h3>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSebMnUVtg6beGkNrygig353NguHOJXmfj8ooGDvK2H1jt2qrA/viewform?usp=header" target="_blank">
+   <button type="button">Apartar</button>
+    </a>
+    </div>
+
+    <div class="regalo">
+      <img src="multimedia/wishlist/26.jpg" alt="Licuadora">
+      <h3>Plancha</h3>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSebMnUVtg6beGkNrygig353NguHOJXmfj8ooGDvK2H1jt2qrA/viewform?usp=header" target="_blank">
+   <button type="button">Apartar</button>
+    </a>
+    </div>
+
+    <div class="regalo">
+      <img src="multimedia/wishlist/27.jpg" alt="Licuadora">
+      <h3>Plancha a Vapor</h3>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSebMnUVtg6beGkNrygig353NguHOJXmfj8ooGDvK2H1jt2qrA/viewform?usp=header" target="_blank">
+   <button type="button">Apartar</button>
+    </a>
+    </div>
+
+    <div class="regalo">
+      <img src="multimedia/wishlist/28.jpg" alt="Licuadora">
+      <h3>Planchador</h3>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSebMnUVtg6beGkNrygig353NguHOJXmfj8ooGDvK2H1jt2qrA/viewform?usp=header" target="_blank">
+   <button type="button">Apartar</button>
+    </a>  
+    </div>
+
+    <div class="regalo">
+      <img src="multimedia/wishlist/29.jpg" alt="Licuadora">
+      <h3>Eco Filtro</h3>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSebMnUVtg6beGkNrygig353NguHOJXmfj8ooGDvK2H1jt2qrA/viewform?usp=header" target="_blank">
+   <button type="button">Apartar</button>
+    </a>
+    </div>
+
+    <div class="regalo">
+      <img src="multimedia/wishlist/30.jpg" alt="Licuadora">
+      <h3>Organizador de cocina</h3>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSebMnUVtg6beGkNrygig353NguHOJXmfj8ooGDvK2H1jt2qrA/viewform?usp=header" target="_blank">
+   <button type="button">Apartar</button>
+    </a>
+    </div>
+    <div class="regalo">
+      <img src="multimedia/wishlist/31.jpg" alt="Licuadora">
+      <h3>Organizadores de Baño</h3>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSebMnUVtg6beGkNrygig353NguHOJXmfj8ooGDvK2H1jt2qrA/viewform?usp=header" target="_blank">
+   <button type="button">Apartar</button>
+    </a>
+    </div>
+
+    <div class="regalo">
+      <img src="multimedia/wishlist/32.jpg" alt="Licuadora">
+      <h3>olino de Café</h3>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSebMnUVtg6beGkNrygig353NguHOJXmfj8ooGDvK2H1jt2qrA/viewform?usp=header" target="_blank">
+   <button type="button">Apartar</button>
+    </a>
+    </div>
+
+    <div class="regalo">
+      <img src="multimedia/wishlist/33.jpg" alt="Licuadora">
+      <h3>Batidora de inmersión 3 en 1</h3>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSebMnUVtg6beGkNrygig353NguHOJXmfj8ooGDvK2H1jt2qrA/viewform?usp=header" target="_blank">
+   <button type="button">Apartar</button>
+    </a>
+    </div>
+
+    <div class="regalo">
+      <img src="multimedia/wishlist/34.jpg" alt="Licuadora">
+      <h3>Juego de ollas y Sartenes</h3>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSebMnUVtg6beGkNrygig353NguHOJXmfj8ooGDvK2H1jt2qrA/viewform?usp=header" target="_blank">
+   <button type="button">Apartar</button>
+    </a>
+    </div>
+
+  </div>
 </main>
 </body>
 <br>
-<footer> <?php include_once("fooder.php") ?></footer>
+<footer><?php include_once("fooder.php") ?></footer>
 </html>
+
+
 
