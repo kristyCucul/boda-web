@@ -267,12 +267,12 @@
       </div>
 
       <div class="historia-bloque centrado">
-        <p>Durante casi un año la evite y no quise acercarme a ella porque yo sabía los sentimientos que yo todavi sentía hacia a ella y pues... ese año fue mi peor año en todo sentido!!!! Moral, espiritual, sentimental, mental y físico... recuedo que alguien me pregunto: ¿cómo estás? A lo que to respondí: mal, muy mal...</p>
+        <p>Durante casi un año la evite y no quise acercarme a ella porque yo sabía los sentimientos que yo todavi sentía hacia a ella y pues... ese año fue mi peor año en todo sentido!!!! Moral, espiritual, sentimental, mental y físico... recuedo que alguien me pregunto: ¿Cómo estás? A lo que to respondí: mal, muy mal...</p>
       <img src="multimedia/mario11.jpg" alt="Imagen Mario 7">
       </div>
 
       <div class="historia-bloque centrado">
-        <p>Pero hubieron dos cosas que marcaron una diferencia en ese año... la primera fue el regalarle una cajita musical a Ester simplemente porque sentí darcela y luego una lámpara que por una año entero la busqué... porque a ella le gustaba. Sentí en mi corazón darle esas dos cosas... sin saber lo que Dios estaba haciendo.</p>
+        <p>Pero hubieron dos cosas que marcaron una diferencia en ese año... la primera fue el regalarlé una cajita musical a Ester simplemente porque sentí darcela y luego una lámpara que por una año entero la busqué... porque a ella le gustaba. Sentí en mi corazón darle esas dos cosas... sin saber lo que Dios estaba haciendo.</p>
       <img src="multimedia/mario12.jpg" alt="Imagen Mario 7">
       </div>
 
@@ -282,9 +282,9 @@
       </div>
 
       <div class="historia-bloque centrado"> 
-        <p>Pero un día domingo mi pastor predico un mensaje que no recuerdo... solo recuerdo haber pasado al altar y decirle a Dios las mismas palabras que le dije un día: si aun sirvo para algo, aquí esta mi vida...
+        <p>Pero un día domingo mi pastor predicó un mensaje que no recuerdo... solo recuerdo haber pasado al altar y decirle a Dios las mismas palabras que le dije un día: si aun sirvo para algo, aquí esta mi vida...
         Y un dia lunes 8 de Abril algo pasó!!!!! Llegando de un ayuno de 3 días con oración recibo un mensaje!!! Y para mi sorpresa era Ester!!! 
-        Pero por que?!!! Yo no le había hablando por un año!!! Por que me estaría escribiendo?!!!
+        Pero ¿por qué?!!! Yo no le había hablando por un año!!! Por qué me estaría escribiendo?!!!
 
         Pero lo mas maravillos es... que ella solo empezó con una simple pregunta: HOLA, CÓMO ESTÁS ?
 
@@ -413,7 +413,7 @@
         <p>Cada día me recuerdas lo que valgo! Me recuerdas que me amas, y no solo me lo recuerdas sino que me lo demuestras. 
         Yo tenia muchas inseguridades, miedos...
         Y tu no solo me ayudaste sino que estuviste conmigo  y sigues conmigo! 
-        Contigo puedon ser yo! Contigo tengo libertad de hablar, de reír, de llorar, de disfrutar, de aprender.
+        Contigo puedo ser yo! Contigo tengo libertad de hablar, de reír, de llorar, de disfrutar, de aprender.
        <br>
        <br>
       26 de abril 2025</p>
@@ -426,7 +426,7 @@
         </div>
 
       <div class="historia-bloque centrado">
-        <p>Y este rally 2025 ya hace un año de nuestro comienzo, cerca a nuestra boda puedo decir que nuestro avance a sido mucho.  Aquellos dos jóvenes que empezaron con miedo pero con emoción no se quedaron en la emoción sino han aprendiendo amarse, respetarse, cuidarse, apoyarse y siguen aprendiendo.... no puedo esperar por ver lo que Dios tiene de aquí en adelante junto a ti!</p>
+        <p>Y este rally 2025 ya hace un año de nuestro comienzo, cerca a nuestra boda puedo decir que nuestro avance ha sido mucho.  Aquellos dos jóvenes que empezaron con miedo pero con emoción no se quedaron en la emoción sino han aprendiendo amarse, respetarse, cuidarse, apoyarse y siguen aprendiendo.... no puedo esperar a ver lo que Dios tiene de aquí en adelante junto a ti!</p>
         <img src="multimedia/esterhistoria15.jpg" alt="Imagen Ester 11">
       </div>
 
