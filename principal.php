@@ -157,6 +157,16 @@
         padding: 12px;
       }
     }
+    .offcanvas {
+      background-color: #4c1424;
+    }
+    .nav-link {
+      color: #6c5c3f;
+      font-weight: 500;
+    }
+    .nav-link:hover {
+      color: #d8b37c;
+    }
   </style>
 </head>
 
@@ -219,8 +229,77 @@
     </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Botón para abrir el menú -->
+<div class="container mt-4 text-center">
+  <button class="btn rounded-pill px-4 py-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" style="background-color: #f5f5dc; color: #000;">
+    ☰ Menú
+  </button>
+</div>
+
+<!-- Menú lateral (offcanvas) -->
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header border-bottom" style="border-color: #d8b37c;">
+    <h5 class="offcanvas-title fw-bold text-uppercase" id="offcanvasRightLabel">
+      <i class="bi bi-info-circle-fill me-2" style="color: #0f0d0bff;"></i>Más Información
+    </h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Cerrar"></button>
+  </div>
+
+  <div class="offcanvas-body px-4">
+    <ul class="navbar-nav">
+      <li class="nav-item mb-3">
+        <a class="nav-link d-flex align-items-center" href="principal.php">
+          <i class="bi bi-house-door-fill me-2"></i>Inicio
+        </a>
+      </li>
+      <li class="nav-item mb-3">
+        <a class="nav-link d-flex align-items-center" href="ubicación.php">
+          <i class="bi bi-geo-alt-fill me-2"></i>Ubicación
+        </a>
+      </li>
+      <li class="nav-item mb-3">
+        <a class="nav-link d-flex align-items-center" href="itinerario.php">
+          <i class="bi bi-calendar-heart-fill me-2"></i>Itinerario
+        </a>
+      </li>
+      <li class="nav-item mb-3">
+        <a class="nav-link d-flex align-items-center" href="galeria.php">
+          <i class="bi bi-images me-2"></i>Galería
+        </a>
+      </li>
+      <li class="nav-item mb-3">
+        <a class="nav-link d-flex align-items-center" href="indicaciones.php">
+          <i class="bi bi-map-fill me-2"></i>Indicaciones
+        </a>
+      </li>
+      <li class="nav-item mb-3">
+        <a class="nav-link d-flex align-items-center" href="nuestra_información.php">
+          <i class="bi bi-people-fill me-2"></i>Nuestra Información
+        </a>
+      </li>
+      <li class="nav-item mb-3">
+        <a class="nav-link d-flex align-items-center" href="wishlist.php">
+          <i class="bi bi-gift-fill me-2"></i>Si deseas Bendecirnos
+        </a>
+      </li>
+      <li class="nav-item mb-3">
+        <a class="nav-link d-flex align-items-center" href="historia.php">
+          <i class="bi bi-stars me-2"></i>Nuestra Historia
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  
+
   </main>
 
   <footer><?php include_once("fooder.php") ?></footer>
 </body>
 </html>
+
