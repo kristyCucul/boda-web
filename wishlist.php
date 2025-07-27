@@ -150,7 +150,7 @@
 
     <div class="regalo">
       <img src="multimedia/wishlist/9.jpg" alt="Licuadora">
-      <h3>Juego de Plato</h3>
+      <h3>Juego de Platos</h3>
     <a href="https://docs.google.com/forms/d/e/1FAIpQLSebMnUVtg6beGkNrygig353NguHOJXmfj8ooGDvK2H1jt2qrA/viewform?usp=header" target="_blank">
    <button type="button">Apartar</button>
     </a>
@@ -167,7 +167,7 @@
     <div class="regalo">
       <img src="multimedia/wishlist/11.jpg" alt="Licuadora">
       <h3>Vasos y Pichel</h3>
-   <button type="button">✔Apartado</button>
+   <button type="button">✔ Apartado</button>
     </a>
     </div>
     
@@ -277,8 +277,8 @@
     <div class="regalo">
       <img src="multimedia/wishlist/25.jpg" alt="Licuadora">
       <h3>Juego de Sábanas</h3>
-    <a href="https://docs.google.com/forms/d/e/1FAIpQLSebMnUVtg6beGkNrygig353NguHOJXmfj8ooGDvK2H1jt2qrA/viewform?usp=header" target="_blank">
-   <button type="button">Apartar</button>
+       <button type="button">✔ Apartado</button>
+
     </a>
     </div>
 
@@ -309,16 +309,14 @@
     <div class="regalo">
       <img src="multimedia/wishlist/29.jpg" alt="Licuadora">
       <h3>Eco Filtro</h3>
-    <a href="https://docs.google.com/forms/d/e/1FAIpQLSebMnUVtg6beGkNrygig353NguHOJXmfj8ooGDvK2H1jt2qrA/viewform?usp=header" target="_blank">
-   <button type="button">Apartar</button>
+       <button type="button">✔ Apartado</button>
     </a>
     </div>
 
     <div class="regalo">
       <img src="multimedia/wishlist/30.jpg" alt="Licuadora">
       <h3>Organizador de cocina</h3>
-    <a href="https://docs.google.com/forms/d/e/1FAIpQLSebMnUVtg6beGkNrygig353NguHOJXmfj8ooGDvK2H1jt2qrA/viewform?usp=header" target="_blank">
-   <button type="button">Apartar</button>
+       <button type="button">✔ Apartado</button>
     </a>
     </div>
     <div class="regalo">
