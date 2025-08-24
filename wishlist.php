@@ -112,8 +112,7 @@
     <div class="regalo">
       <img src="multimedia/wishlist/4.jpg" alt="Licuadora">
       <h3>Batidora</h3>
-    <a href="https://docs.google.com/forms/d/e/1FAIpQLSebMnUVtg6beGkNrygig353NguHOJXmfj8ooGDvK2H1jt2qrA/viewform?usp=header" target="_blank">
-   <button type="button">Apartar</button>
+      <button type="button">✔ Apartado</button>
     </a>
     </div>
 
@@ -171,8 +170,7 @@
     <div class="regalo">
       <img src="multimedia/wishlist/12.jpg" alt="Licuadora">
       <h3>Arrocera</h3>
-    <a href="https://docs.google.com/forms/d/e/1FAIpQLSebMnUVtg6beGkNrygig353NguHOJXmfj8ooGDvK2H1jt2qrA/viewform?usp=header" target="_blank">
-   <button type="button">Apartar</button>
+      <button type="button">✔ Apartado</button>
     </a>
     </div>
 
